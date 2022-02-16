@@ -7,7 +7,11 @@ import org.springframework.data.domain.Pageable;
 
 public class BeerPagedList extends PageImpl<BeerDto> {
 
-	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public BeerPagedList(List<BeerDto> content) {
 		super(content);
 		// TODO Auto-generated constructor stub
